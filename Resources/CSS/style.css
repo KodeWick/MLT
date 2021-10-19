@@ -1,0 +1,46 @@
+:root {
+    --color-mlt-green: #005035;
+    --color-mlt-orange: #F99D22;
+    --color-mlt-drak-gray: #555;
+    --color-mlt-light-gray: #C0C0C0;
+}
+
+.topnav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 10px 15px;
+}
+
+.topnav-links{
+    display: flex;
+    width: 50%;
+    align-self: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.topnav-logo {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav-logo img{
+    height: 75px;
+    width: auto;
+}
+
+.topnav-links a {
+    margin: 0 5px;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
